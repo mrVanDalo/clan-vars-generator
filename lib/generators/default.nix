@@ -1,0 +1,11 @@
+{ pkgs, ... }:
+(import ./matrix-synapse.nix { inherit pkgs; })
+// (import ./nix-serve.nix { inherit pkgs; })
+// (import ./xkcdpass.nix { inherit pkgs; })
+// (import ./openssh.nix { inherit pkgs; })
+// (import ./syncthing.nix { inherit pkgs; })
+// (import ./public.nix { inherit pkgs; })
+// (import ./tinc.nix { inherit pkgs; })
+// (import ./tor.nix { inherit pkgs; })
+// (import ./wireguard.nix { inherit pkgs; })
+// (import ./zfs.nix { inherit pkgs; })
