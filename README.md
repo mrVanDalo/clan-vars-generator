@@ -26,5 +26,4 @@ with varsGenerator;
 };
 ```
 
-> Every `varsGenerator` accepts a `name` (usually optional) parameter and
-> `service` (optional) parameter to change the secret name.
+> Every `varsGenerator` demands a dict as argument, even some of the generators don't have parameters to be set.
